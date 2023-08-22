@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@600&family=Kalam&display=swap');
+:root{
+    --primary: #e52165;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kalam', cursive;
+}
+li{
+    list-style-type: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+header{
+    min-height: 100vh;
+    background: url(IMG/Modern\ agricultural.png);
+    background-size: cover;
+    background-image: -o-linear-gradient(rba(0,0,0.75)-o-linear-gradient(rba(0,0,0.75)));
+}
+header.content{
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    display:flex;
+    flex-direction: row;
+    padding: 35px 0;
+    align-items: center;
+    
+}
+.logo{
+    height: 200px;
+    width: 190px;
+    float: left;
+}
+.nav-links{
+   display: flex;
+    width: 60%;
+    justify-content: space-between;
+    float: right;
+    margin-top: 73px;
+    font-size: 33px;
+    color: white;
+}
+.nav-links ul li{
+    display:inline-flex;
+    margin: 20px;
+}
+.nav-links ul li a{
+    float: right;
+    font-size: 20px;
+    font-weight: 40px;
+    font-family: sans-serif;
+}
+.nav-links ul li a:hover{
+    background-color: rgb(255,10,10);
+}
+.new{
+    justify-content: space-between;
+    color: whitesmoke;
+    font-variant: small-caps;
+    font-size: 64px;
+}
+.text-center{
+    font-size: 23px;
+    color: whitesmoke;
+    text-align: center;
+}
+button{
+    font-size: larger;
+    width: 200px;
+    padding: 20px 0;
+    text-align: center;
+    margin: 10px 10ox;
+    border-radius: 20px;
+    font-weight: bolder;
+    border: 2px -solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+button:hover{
+    background-color: rgba(158, 179, 166, 0.977);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
