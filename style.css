@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@600&family=Kalam&display=swap');
-:root{
-    --primary: #e52165;
-}
 *{
     margin: 0;
     padding: 0;
@@ -9,33 +6,36 @@
     font-family: 'Caveat', cursive;
     font-family: 'Dancing Script', cursive;
     font-family: 'Kalam', cursive;
+    text-decoration: none;
 }
 li{
-    list-style-type: none;
-    cursor: pointer;
+    display: flex;
+    margin: 0px;
+    border-radius: 1px;
+    padding: 2px 2px;
+    margin: 10px 10px;
+    border: 9ch -solid #009688;
+    width: 1px;
 }
-a{
-    text-decoration: none;
+a:hover{
+    color: rgb(38, 151, 160);
 }
 img{
     width: 100%;
     height: 100%;
+    scroll-snap-stop: normal;
+    background-attachment:fixed;
 }
 header{
     min-height: 100vh;
     background: url(IMG/Modern\ agricultural.png);
     background-size: cover;
-    background-image: -o-linear-gradient(rba(0,0,0.75)-o-linear-gradient(rba(0,0,0.75)));
+    background-image:linear-gradient(rba(0,0,0.75)-o-linear-gradient(rba(0,0,0.75)));
 }
-header.content{
-    width: 95%;
-    margin: auto;
-    justify-content: space-between;
-    display:flex;
-    flex-direction: row;
-    padding: 35px 0;
-    align-items: center;
-    
+.header.content{
+    width: 100%;
+    margin: 10px;
+    text-decoration: none; 
 }
 .logo{
     height: 200px;
@@ -43,96 +43,53 @@ header.content{
     float: left;
 }
 .nav-links{
-   display: flex;
-    width: 60%;
+    display: flex;
     justify-content: space-between;
     float: right;
-    margin-top: 73px;
-    font-size: 33px;
-    color: white;
-}
-.nav-links ul li{
-    display:inline-flex;
-    margin: 20px;
+    margin-top: 60px;
+    margin-right: 6em;
+    font-size: 30px;
+    text-decoration: none;
+    width:50%; 
 }
 .nav-links ul li a{
     float: right;
-    font-size: 20px;
+    font-size: 0.9px;
     font-weight: 40px;
     font-family: sans-serif;
 }
 .nav-links ul li a:hover{
-    background-color: rgb(255,10,10);
+    background-color: rgb(18, 185, 118);
 }
 .new{
     justify-content: space-between;
     color: whitesmoke;
     font-variant: small-caps;
     font-size: 64px;
+    text-indent: 50px;
+    line-height: 1.3em;  
+    
 }
 .text-center{
     font-size: 23px;
-    color: whitesmoke;
+    color: lightgray;
     text-align: center;
+    line-height: 2em; 
 }
 button{
-    font-size: larger;
+    font-size: 20px;
     width: 200px;
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
-    margin: 10px 10ox;
+    margin: 10px 10px;
     border-radius: 20px;
     font-weight: bolder;
     border: 2px -solid #009688;
     background: transparent;
     color: #fff;
     cursor: pointer;
-    position: relative;
-    overflow: hidden;
 }
 button:hover{
     background-color: rgba(158, 179, 166, 0.977);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
